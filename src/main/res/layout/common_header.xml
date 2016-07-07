@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_header_bg_color"
+    android:minHeight="45dip"
+    android:clickable="true" >
+
+    <!-- Left Text Button -->
+
+    <Button
+        android:id="@+id/common_header_left_text_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_header_hotspot_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_header_hotspot_padding"
+        android:paddingRight="@dimen/common_header_hotspot_padding"
+        android:textColor="@color/common_header_text_color_selector"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Left Icon Button -->
+
+    <ImageButton
+        android:id="@+id/common_header_left_icon_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_header_hotspot_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingLeft="@dimen/common_header_hotspot_padding"
+        android:paddingRight="@dimen/common_header_hotspot_padding"
+        android:scaleType="center"
+        android:src="@drawable/common_header_back_icon_selector"
+        android:visibility="gone" />
+
+    <!-- Text Title -->
+
+    <TextView
+        android:id="@+id/common_header_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_header_hotspot_height"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxWidth="180dp"
+        android:paddingLeft="@dimen/common_header_hotspot_padding"
+        android:paddingRight="@dimen/common_header_hotspot_padding"
+        android:textColor="@color/common_header_title_text_color_selector"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <!-- Icon Title -->
+
+    <ImageButton
+        android:id="@+id/common_header_icon_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:paddingLeft="@dimen/common_header_hotspot_padding"
+        android:paddingRight="@dimen/common_header_hotspot_padding"
+        android:scaleType="center"
+        android:visibility="gone" />
+
+    <!-- Tab -->
+
+    <LinearLayout
+        android:id="@+id/common_header_tab_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+    <!-- Right Text Button -->
+
+    <Button
+        android:id="@+id/common_header_right_text_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_header_hotspot_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_header_hotspot_padding"
+        android:paddingRight="@dimen/common_header_hotspot_padding"
+        android:textColor="@color/common_header_text_color_selector"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Right Icon Button -->
+
+    <ImageButton
+        android:id="@+id/common_header_right_icon_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_header_hotspot_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingLeft="@dimen/common_header_hotspot_padding"
+        android:paddingRight="@dimen/common_header_hotspot_padding"
+        android:scaleType="center"
+        android:visibility="gone" />
+    
+    <ImageButton
+        android:id="@+id/common_header_right_icon_btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_header_hotspot_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingLeft="@dimen/common_header_hotspot_padding"
+        android:paddingRight="@dimen/common_header_hotspot_padding"
+        android:layout_marginRight="30dp"
+        android:scaleType="center"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dttandroid.dttlibrary">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:name="com.dttandroid.dttlibrary.booter.BaseApp"
+        android:icon="@drawable/app_icon"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.dttandroid.dttlibrary.ui.CameraUI"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+        <activity
+            android:name="com.dttandroid.dttlibrary.gallery.GalleryUI"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentStyle" />
+        <activity
+
+            android:name="com.dttandroid.dttlibrary.gallery.GalleryFolderUI"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentStyle" />
+
+        <activity
+            android:name="com.dttandroid.dttlibrary.gallery.GalleryViewerUI"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentStyle" />
+    </application>
+
+</manifest>

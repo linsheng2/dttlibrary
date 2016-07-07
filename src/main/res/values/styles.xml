@@ -1,0 +1,84 @@
+<resources>
+    
+    <style name="AppTheme" parent="@style/BaseAppTheme">
+        <!--  <item name="android:windowIsTranslucent">true</item> --> <!-- 解决Task之间Activity切换时的短暂黑屏(有副作用) -->
+        <!-- <item name="android:windowContentOverlay">@null</item> --> <!-- 去掉ActionBar下方的外阴影 -->
+    </style>
+    
+    <style name="BaseAppTheme" parent="@android:style/Theme.NoTitleBar">
+        <!-- 使用 Holo.Light风格的scrollbar style, scrollbar_handle_holo_light 是从SDK中拷贝出来的 -->
+        <item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_handle_holo_light</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_holo_light</item>
+    </style>
+
+    <style name="WaitingDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <style name="DimDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="TranslucentStyle" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+    
+    <style name="MaintTabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/tab_color_selector</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="HoloEx" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:divider">#d4d4d4</item>
+        <item name="android:dividerHeight">0.5dip</item>
+        <item name="android:listPreferredItemHeight">47.33dip</item>
+        <item name="android:textColorAlertDialogListItem">#444444</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:windowTitleStyle">@style/DialogTitle</item>
+    </style>
+    
+    <style name="DialogTitle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#E5000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="SwipeFling">
+        <item name="rotation_degrees">15</item>
+        <item name="min_adapter_stack">6</item>
+        <item name="max_visible">4</item>
+    </style>
+
+</resources>

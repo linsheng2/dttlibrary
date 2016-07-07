@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dttandroid.dttlibrary.widget.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <com.dttandroid.dttlibrary.graphics.RecyclingImageView
+        android:id="@+id/item_gallery_folder_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY" />
+
+    <CheckBox
+        android:id="@+id/item_gallery_folder_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:button="@null"
+        android:drawableRight="@drawable/gallery_checkbox_selector"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="right|bottom"
+        android:paddingLeft="30dp"
+        android:paddingRight="2dp"
+        android:paddingTop="30dp" />
+
+</com.dttandroid.dttlibrary.widget.SquareLayout>

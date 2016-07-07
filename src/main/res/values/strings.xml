@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">DttLibrary</string>
+    <!-- 公共 -->
+    <string name="common_today">今天</string>
+    <string name="common_yesterday">昨天</string>
+    <string name="common_hour">小时</string>
+    <string name="common_sure">确定</string>
+    <string name="common_complete">完成</string>
+    <string name="common_i_known">知道了</string>
+    <string name="common_prompt">提示</string>
+    <string name="common_waiting">请稍候…</string>
+    <string name="common_uploading">上传中，请稍候…</string>
+    <string name="common_loading_data">数据加载中，请稍候…</string>
+    <string name="common_toast_dowload_failed">加载失败，请稍候重试</string>
+    <string name="common_network_unavailable">当前网络不可用，请检查你的网络设置</string>
+    <string name="common_network_poor">网络不给力，请稍候重试</string>
+    <string name="common_double_click_back_home">再按一次返回到桌面</string>
+    <string name="common_camera_error">相机异常</string>
+    <string name="common_please_select">请选择</string>
+    <string name="common_picture_from_camera">相机拍照</string>
+    <string name="common_picture_from_gallery">相册选取</string>
+    <string name="common_picture_avaer_not_available">该手机不支持相片裁剪功能</string>
+    <string name="common_no_data_tip">暂无数据，请稍后刷新重试</string>
+
+    <!-- gallery -->
+    <string name="gallery_title">选择相册</string>
+    <string name="gallery_selected">已选</string>
+    <string name="gallery_select_tips">最多只能选择{0}张图片</string>
+
+    <!-- 裁剪 -->
+    <string name="crop_saving">保存中...</string>
+    <string name="crop_waiting">请稍等...</string>
+    <string name="crop_pick_error">No image sources available</string>
+    <string name="crop_done">完成</string>
+    <string name="crop_cancel">CANCEL</string>
+
+    <!-- Pull to refresh -->
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="refresh_pull_to_refresh">下拉可以刷新&#8230;</string>
+    <string name="refresh_release_to_refresh">松开可以刷新&#8230;</string>
+    <string name="refresh_refreshing">正在努力加载中&#8230;</string>
+    <string name="ptr_start_pull_label">下拉进行刷新</string>
+    <string name="ptr_start_release_label">松开刷新…</string>
+    <string name="ptr_start_refreshing_label">加载中…</string>
+    <string name="ptr_end_pull_label">上拉显示更多</string>
+    <string name="ptr_end_release_label">松开加载</string>
+    <string name="ptr_end_refreshing_label">加载中…</string>
+    <string name="ptr_end_load_more">加载更多</string>
+</resources>

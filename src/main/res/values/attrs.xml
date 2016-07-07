@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="cropImageStyle" format="reference" />
+
+    <declare-styleable name="CropImageView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="showThirds" format="boolean" />
+        <attr name="showHandles">
+            <enum name="changing" value="0" />
+            <enum name="always" value="1" />
+            <enum name="never" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="StringPicker">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColorItem" format="color" />
+        <attr name="textColorSelected" format="color" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="adapter" format="string" />
+        <attr name="currentItem" format="integer" />
+    </declare-styleable>
+    
+    
+    <declare-styleable name="SwipeFlingAdapterView">
+        <attr name="SwipeFlingStyle" format="reference"/>
+        <attr name="rotation_degrees" format="float"/>
+        <attr name="min_adapter_stack" format="integer"/>
+        <attr name="max_visible" format="integer"/>
+    </declare-styleable>
+
+</resources>

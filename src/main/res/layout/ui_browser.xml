@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_ui_background" >
+
+    <RelativeLayout
+        android:id="@+id/layout_brower_header"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="#7f59ab" >
+
+        <ImageButton
+            android:id="@+id/browser_header_return"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/common_header_hotspot_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="@dimen/common_header_hotspot_padding"
+            android:paddingRight="@dimen/common_header_hotspot_padding"
+            android:scaleType="center"
+            android:src="@drawable/common_header_back_icon_selector" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/browser_header_return_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="9.3dip"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/browser_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dip"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/browser_share_icon_selector" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/browser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_brower_header" />
+
+    <ProgressBar
+        android:id="@+id/browser_progerbar"
+        android:layout_width="35dip"
+        android:layout_height="35dip"
+        android:layout_centerInParent="true"
+        android:progressDrawable="@drawable/share_voice_progressbar_color"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/control_browser"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/broswer_bottom_bg"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/control_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:contentDescription="@string/app_name"
+            android:padding="4dp"
+            android:src="@drawable/browser_left" />
+
+        <ImageView
+            android:id="@+id/control_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="53.3dip"
+            android:layout_toRightOf="@id/control_left"
+            android:contentDescription="@string/app_name"
+            android:padding="4dp"
+            android:src="@drawable/browser_right" />
+
+        <ImageView
+            android:id="@+id/control_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16.7dip"
+            android:contentDescription="@string/app_name"
+            android:padding="5dp"
+            android:src="@drawable/browser_referesh" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom_function"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/broswer_bottom_bg" >
+
+        <TextView
+            android:id="@+id/contact_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:drawablePadding="8dip"
+            android:drawableRight="@drawable/browser_contact_customer_icon_selector"
+            android:gravity="center"
+            android:text="联系家喻"
+            android:textColor="#6b6d6f"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:clickable="true"
+            android:layout_toLeftOf="@id/contact_customer"
+            android:drawablePadding="8dip"
+            android:drawableRight="@drawable/browser_favorite_icon_selector"
+            android:gravity="center"
+            android:text="收藏文章"
+            android:textColor="#6b6d6f"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

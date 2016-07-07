@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- UI底色 -->
+    <color name="common_ui_background">#F5F5F5</color>
+    <!-- 内容区背影颜色 -->
+    <color name="content_background_color">#FFFFFF</color>
+    <!-- 主要文字、标题颜色 -->
+    <color name="font_level_1_color">#323232</color>
+    <!-- 辅助文字颜色 -->
+    <color name="font_level_2_color">#AAAAAA</color>
+    <!-- 辅助文字颜色 -->
+    <color name="font_level_3_color">#898989</color>
+    <!-- 描边颜色 -->
+    <color name="border_color">#E1E1E1</color>
+    
+    <color name="list_item_normal_background_color">#FFFFFF</color>
+    <color name="list_item_pressed_background_color">#D4D4D4</color>
+    <color name="list_divider_color">@color/border_color</color>
+    <color name="common_single_item_pressed_color">#D4D4D4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="shape_line">#ffcccccc</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="half_transparent">#55000000</color>
+    <color name="gray">#D4D4D4</color>
+    <color name="common_header_bg_color">#f7f7f7</color>
+</resources>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <com.dttandroid.dttlibrary.widget.GalleryViewer
+        android:id="@+id/gallery_viewer_self"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:spacing="5dp" />
+
+    <include layout="@layout/common_header" />
+
+    <CheckBox
+        android:id="@+id/gallery_viewer_checkbox"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:button="@drawable/gallery_viewer_checkbox_selector"
+        android:checked="true" />
+
+</RelativeLayout>
